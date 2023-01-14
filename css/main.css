@@ -1,0 +1,218 @@
+/*********************** fruit-section-style-start ***********************/
+
+.fruit-container{
+    display: flex;
+}
+.fruit-wrapper{
+    position: relative;
+    width: 720px;
+    height: 600px;
+}
+.fruit-wrapper-2{
+    position: relative;
+    width: 720px;
+    height: 600px;
+}
+
+.fruit-text{
+    position:absolute;
+    top: 400px;
+    left: 190px;
+}
+.fruit-text-2{
+    position:absolute;
+    top: 400px;
+    left: 190px;
+}
+
+
+.fruit-heading{
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #24554A;
+    margin: 0;
+}
+.fruit-paragraph{
+    width: 340px;
+    margin: 0 auto;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+    color: #3E7467;
+    margin: 27px 0 59px;
+}
+
+
+.fruit-heading-2{
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #052C3B;
+    margin: 0;
+}
+.fruit-paragraph-2{
+    width: 340px;
+    margin: 0 auto;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+    color: #19536C;
+    margin: 27px 0 59px;
+}
+/****************** fruit-section-style-end *********************/
+
+
+/***************** clients-section-style-start *****************/
+.clients-container{ 
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.clients-heading{
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #A7AAAD;
+    margin: 160px 0 81px;
+}
+.clients-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px 0;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.clients-item{
+    margin: 0 0 150px;
+}
+.clients-item-center{
+    margin: 0 30px 150px;
+}
+.client-img{
+    width: 72px;
+    height: 72px;
+    margin: 0 0 58px;    
+}
+.clients-paragraph{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    margin: 0 0 69px;
+    padding: 0;
+}
+.clients-headin-2{
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+    margin: 0 0 9px;
+    padding: 0;
+}
+.clients-link{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+    text-decoration: none;
+}
+/***************** clients-section-style-start *****************/
+
+
+/****************** footer-style-start *********************/
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow';
+    background: #90D4C6;
+}
+.wrapper{
+    display: flex;
+}
+.img1{
+    width: 360px;
+    height: 400px;
+}
+.wrapper-2{
+    display: flex;
+    flex-direction: column;
+}
+.img2{
+    width: 170px;
+    margin: 72px auto 40px;
+}
+.ul1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 88px;
+    list-style: none;
+    padding: 0;
+}
+.li1:not(:last-child){
+    padding-right: 57px;
+}
+.a1{
+    color: #458D7E;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    padding: 0;
+}
+.ul2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 72px;
+    list-style: none;
+    padding: 0;
+}
+.li2:not(:last-child){
+    padding-right: 28px;
+}
+/****************** footer-style-end *********************/
