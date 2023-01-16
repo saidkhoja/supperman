@@ -1,3 +1,258 @@
+body{
+    background-image: url(../images/beground\ .png);
+    background-repeat: no-repeat;
+    background-size: 1400px 500px;
+}
+/* header style code start */
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.icon{
+    margin-top: 20px;
+}
+
+.header_nav_link{
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    
+    letter-spacing: -0.128571px;
+
+    color: #FFFFFF;
+}
+.header_nav_link a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn_item{
+    border: #fff;
+    margin-top: -10px;
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.btn_item a{
+    color: black;
+}
+
+.strelka img{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 10px;
+}
+
+.sarlafha{
+    text-align: center;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 69px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+@media (max-width: 700px){
+    
+    ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 650px){
+    .navbar-toggler{
+        
+        display:inline-block;
+        margin-left: 500px;
+        margin-top: -60px; 
+    }
+    .container ul{
+        display: none;
+    }
+    ul{
+        width: 100px;
+        height: 200px;
+        margin: 0 auto;
+        background-color: #fff;
+        flex-direction: column;
+        text-align:center;
+    }
+
+    .header_nav_link li a{
+        font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.142857px;
+
+    color: #808397;
+
+    }
+    
+   
+    .btn_item{
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #FBD600;
+        ;
+    }
+    .sarlafha{
+        font-size: 30px;
+        display: none;
+    }
+    body{
+        background-image: url(../images/beground\ .png);
+        background-repeat: no-repeat;
+        background-size: 700px 500px;
+    }
+    .header_nav_link{
+        width: 100%;
+    }
+
+    .strelka img{
+        /* margin: 0 auto; */
+        margin-left: 300px;
+        margin-top: 100px;
+    }
+}
+
+/* header style code end */
+
+.main{
+    width: 100%;
+    margin-top: 300px;
+    display: flex;
+}
+
+.quti{
+    width: 700px;
+    height: 300px;
+    /* border: 1px solid black; */
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+
+.quti h1{
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+
+    color: #24303E;
+
+}
+
+.quti p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.128571px;
+
+    color: #808397;
+}
+
+.btn_leranmore{
+    position: relative;
+    border: 0;
+    background-color: #fff;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #24303E;
+}
+.btn_leranmore::after{
+        position: absolute;
+        width: 0;
+        top: 0;
+        /* right: 0; */
+        left: 0;
+        height: 3px;
+        margin: auto;
+        background-color: #ff0000;
+        transition: width 0.5s ease;
+        content: " ";
+}
+.main-1{
+    width: 100%;
+    display: flex;
+}
+.quti-1{
+    width: 700px;
+    height: 300px;
+}
+
+@media (max-width: 650px){
+    .main{
+        flex-direction: column;
+        /* margin-top: 50px; */
+        /* margin-bottom: 50px; */
+        margin-top: 450px;
+        text-align:center;
+    }
+
+    .main-1{
+        
+            flex-direction: column;
+            /* margin-top: 50px; */
+            /* margin-bottom: 50px; */
+            /* margin-top: 450px; */
+            text-align:center;
+        
+    }
+    .quti-1 img{
+        width: 600px;
+    }
+
+    .main-1{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
 /*********************** fruit-section-style-start ***********************/
 
 .fruit-container{
